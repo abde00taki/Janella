@@ -1,31 +1,33 @@
 import { ShoppingBag } from 'lucide-react';
 import { useCart, type Product } from '../context/CartContext';
+import p1 from '../assets/p1.jfif'
+import p2 from '../assets/p2.jfif'
 
 const products: Product[] = [
   {
     id: 1,
-    name: 'كريم التلو للوجه - البشرة المختلطة',
-    nameFr: 'Crème de Tallow - Peau Mixte',
+    name: '  كريم اليدين والقدمين - مسك ناعم',
+    nameFr: 'Crème Mains & Pieds - Soft Musk',
     description: 'تركيبة خاصة للبشرة المختلطة تُوازن بين الترطيب وامتصاص الدهون. غنية بفيتامينات A و D و E لبشرة صحية ومتألقة.',
     descriptionFr: 'Formule spéciale pour peau mixte équilibrant hydratation et absorption des huiles. Riche en vitamines A, D et E.',
-    price: 3500,
-    image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=600',
+    price: 150,
+    image: p1,
   },
   {
     id: 2,
-    name: 'كريم التلو للوجه - البشرة الجافة',
-    nameFr: 'Crème de Tallow - Peau Sèche',
+    name: 'كريم الوجه "Tallow" - للبشرة المختلطة',
+    nameFr: 'Tallow Face Cream - Dry Skin',
     description: 'تركيبة مكثفة الترطيب مصممة خصيصاً للبشرة الجافة. تُغذّي البشرة بعمق وتُعيد لها نعومتها وحيويتها الطبيعية.',
     descriptionFr: 'Formule intensément hydratante conçue pour les peaux sèches. Nourrit la peau en profondeur.',
-    price: 3500,
-    image: 'https://media.istockphoto.com/id/1706804061/pt/foto/skin-care-routine-products.jpg?s=612x612&w=0&k=20&c=_ogaAZpWkwPc50uGMrXSSRg01D4q4QfTMWaE28m3qpQ=',
+    price: 220,
+    image: p2,
   },
 ];
 
 function formatPrice(price: number) {
   return new Intl.NumberFormat('ar-DZ', {
     style: 'decimal',
-  }).format(price) + ' د.ج';
+  }).format(price) + ' درهم';
 }
 
 export default function Products() {

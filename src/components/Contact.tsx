@@ -48,7 +48,7 @@ export default function Contact() {
         {/* WhatsApp CTA */}
         <div className="mt-10 text-center">
           <a
-            href="https://wa.me/213780506079"
+            href="https://wa.me/212780506079"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-green-500 text-white px-8 py-4 rounded-full font-medium
