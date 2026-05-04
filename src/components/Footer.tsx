@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Contact */}
           <div className="text-sm text-gray-400 font-latin text-center md:text-left">
             <p>contact@janellaskin.com</p>
-            <p className="text-gray-500 text-xs mt-1">+213 780 506 079</p>
+            <p className="text-gray-500 text-xs mt-1">+212 780 506 079</p>
           </div>
         </div>
 
@@ -37,9 +37,9 @@ export default function Footer() {
             &copy; {year} Janella Skin. All rights reserved.
           </p>
           <p className="flex items-center gap-1">
-            صُنع بكل
+           جمالك الطبيعي
             <Heart size={12} className="text-brand-400" />
-            في الجزائر
+           يبدأ من الطبيعة
           </p>
         </div>
       </div>
