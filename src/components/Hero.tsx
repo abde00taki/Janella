@@ -47,9 +47,9 @@ export default function Hero() {
             تسوقي الآن
             <span className="mr-2 font-latin text-sm opacity-80">Shop Now</span>
           </a>
-          <a href="#about" className="btn-secondary border-white/30 text-white hover:bg-white/10 hover:border-white/50">
-            اكتشفي المزيد
-          </a>
+          <a href="#about" className="btn-secondary border-white/30 text-gray-900 hover:bg-white hover:text-black">
+  اكتشفي المزيد
+</a>
         </div>
       </div>
 
